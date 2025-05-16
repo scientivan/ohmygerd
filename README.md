@@ -1,5 +1,8 @@
 # OhMyGERD
 
+## 📲App Download (Beta Launch)
+Click this link: https://drive.google.com/file/d/1sZALCiWk_rCOWqBKDy14hzPA-BhPyEo-/view?usp=sharing
+
 ## 📋Overview
 
 OhMyGERD is a gamified mobile app designed to support young individuals—especially busy college students—in managing Gastroesophageal Reflux Disease (GERD). This condition is often triggered by irregular eating patterns, skipped meals, and certain foods or drinks. OhMyGERD helps users build healthy habits by providing smart reminders, easy tracking of food and drink intake, and AI-powered tools to avoid triggers. Through personalized features and a fun, interactive experience, OhMyGERD empowers users to stay consistent, reduce symptoms, and take control of their lifestyle—without feeling overwhelmed by medical jargon or boring routines.
@@ -8,9 +11,9 @@ OhMyGERD is a gamified mobile app designed to support young individuals—especi
 
 - 🔔 **Smart Reminder & Connection** — Sends timely reminders for meals while enabling support from loved ones.
 - 🍽️ **Food & Drink Agenda** — Helps users log meals and drinks to avoid GERD triggers.
+- 🧠 **AI-powered Food Check & Recommendation** — Scans and evaluates food items, providing tailored GERD-friendly suggestions based on user data.
 - 🤖 **Gerdian (v1.0)** — A friendly chatbot that offers real-time support, education, tips, and calming techniques during GERD episodes.
 - 📅 **Streak & Activity Record Calendar** — Tracks habits, symptom patterns, and progress to encourage consistency and lifestyle improvements.
-- 🧠 **AI-powered Food Check & Recommendation** — Scans and evaluates food items, providing tailored GERD-friendly suggestions based on user data.
 
 ## 🛠️ Tech Stack
 
@@ -211,6 +214,12 @@ flutter run
 - Detects GERD-triggering ingredients in your meals
 - Stores your food history for better tracking and analysis
 
+### AI-powered Food Check & Recommendation
+
+- Instantly scans and analyzes your food using AI
+- Recommends GERD-friendly meals based on selected health conditions
+- Suggests nearby restaurants that match your dietary needs
+- 
 ### Gerdian (v1.0)
 
 - Your personalized chatbot, available 24/7
@@ -222,12 +231,6 @@ flutter run
 - Adds a gamified streak system to boost consistency
 - Tracks your monthly GERD symptoms using a visual calendar
 - Logs daily meal entries with detailed ingredients
-
-### AI-powered Food Check & Recommendation
-
-- Instantly scans and analyzes your food using AI
-- Recommends GERD-friendly meals based on selected health conditions
-- Suggests nearby restaurants that match your dietary needs
 
 ## 👥Contributing
 
