@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // "outDir": "./lib",  // Hasil kompilasi akan disimpan di folder lib
+    "rootDir": "./lib",
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES6"
+  },
+  "compileOnSave": true,
+  "include": ["lib"], 
+}
+  

@@ -1,0 +1,21 @@
+# Compiled JavaScript files
+# lib/**/*.js
+# lib/**/*.js.map
+
+# TypeScript v1 declaration files
+typings/
+
+# Node.js dependency directory
+node_modules/
+*.local
+
+# Direktori node_modules
+node_modules/
+
+# File environment
+.env
+env
+/functions/.env
+
+# Google Cloud credentials
+serviceAccountKey.json
