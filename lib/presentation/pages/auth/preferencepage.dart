@@ -109,7 +109,7 @@ class _PreferencePageState extends State<PreferencePage>
           time_range = timeRangeInHours;
 
           // Check if there's enough time between notifications
-          if (timeRangeInHours / snackIntensity < 0.5) {
+          if (timeRangeInHours / snackIntensity < 3) {
             log(timeRangeInHours / snackIntensity);
             isTimeRangeTooSmall = true;
             alertDescription =

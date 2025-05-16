@@ -155,7 +155,7 @@ class _PreferenceSettingsPageState extends State<PreferenceSettingsPage> {
         if (timeRangeInHours / snackIntensityValue < 3) {
           isTimeRangeTooSmall = true;
           alertDescription =
-              "Jarak waktu antar notifikasi terlalu pendek (minimal 3 jam)";
+              "Jarak antar notifikasi makan terlalu rapat. Coba kurangi intensitas makanan atau perpanjang durasi waktu makan.";
           isErrorVisible = true;
         }
       }
