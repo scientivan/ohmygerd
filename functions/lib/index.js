@@ -469,7 +469,7 @@ export const checkStreak = functions.pubsub
                             const todayDate = formatDate();
                             await db.collection('users').doc(uid).collection('history').doc(todayDate).set({
                                 dailyGerdCount: 0
-                            });
+                            }, {merge : true});
                         } catch (historyError) {
                             console.error(`Gagal update history untuk user ${uid}:`, historyError);
                         }
