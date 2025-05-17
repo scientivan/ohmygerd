@@ -104,12 +104,6 @@ class _ConnectionsPageState extends State<ConnectionsPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                DashedMainButton(
-                  text: "DEBUGGGG",
-                  onPressed: () {
-                    context.push(AppRoutes.preference);
-                  },
-                ),
                 AlertNotification(
                   description: alertDescription,
                   visible: isErrorVisible,
